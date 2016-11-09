@@ -1,0 +1,474 @@
+body{
+    width:100%;
+}
+.navbar{
+    background-color: white;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+.navbar-toggle {
+    border: 1px solid black;
+}
+.icon-bar {
+    border: 1px solid black;
+}
+i{
+    padding-right: 8px;
+}
+.navbar img{
+    height: 38px;
+    margin-top: -9px;
+}
+
+.about{
+    height: 480px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Rasa', serif;
+}
+.home{
+    background-image: url("http://www.sweetkarmadesserts.com/images/112215/case%20for%20website.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: #6E6E6E;
+    text-align: center;
+    margin-top: 50px;
+    background-attachment: fixed;
+    color: white;
+    height:750px;
+}
+.home h4{
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+}
+h1{
+    padding-top:240px;
+    font-family: 'Eczar', serif;
+    font-size: 70px;
+}
+.sticky-container {
+padding: 0px;
+margin: 0px;
+position: fixed;
+right: -119px;
+top: 350px;
+width: 200px;
+}
+.sticky li {
+list-style-type: none;
+background-blend-mode: multiply;
+background-color: white;
+color: black;
+height: 43px;
+padding: 0px;
+margin: 0px 0px 1px 0px;
+
+}
+
+.sticky li:hover,.sticky img:hover{
+margin-left: -115px;
+}
+
+.sticky li img {
+float: left;
+margin: 5px 5px;
+margin-right: 10px;
+width: 32px;
+height: 32px;
+}
+.sticky li p {
+padding: 0px;
+margin: 0px;
+line-height: 43px;
+}
+.sticky a{
+    text-decoration: none;
+    color: black;
+}
+.mySlides {
+    padding: 50px;
+    display:none;}
+.baker-content{
+    width: 100%;
+    height: 400px;
+}
+.baker h2{
+    text-align: center;
+    padding-top: 40px;
+}
+.baker p{
+    padding-right:40px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.baker a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    margin-left: 240px;
+}
+.baker a:hover{
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.about:hover{
+    background-color: #DBF2F9;
+}
+.regular{
+    height: 557px;
+    background-image: url('../image/ovenstory.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: #6E6E6E;
+}
+.regular h3{
+    color: white;
+    font-family: 'Eczar', serif;
+    margin-left: 25px;
+}
+.regular button{
+    margin-left: 135px;
+    margin-top: 456px;
+}
+.modal-content{
+    background-image: url('../image/ovenstory.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: #6E6E6E;
+    color: white;
+}
+#cl{
+    color: white;
+}
+.customize{
+    height: 557px;
+    background-color: #070507;
+    background-blend-mode: multiply;
+    color:white;
+    font-family: 'Eczar', serif;
+}
+.customize img{
+    width:100%;
+    height: 250px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.festive{
+    height: 557px;
+background-color: #070507;
+background-blend-mode: multiply;
+color: white;
+font-family: 'Eczar', serif;
+}
+.festive img{
+    width: 75%;
+padding-bottom: 20px;
+margin-left: 30px;
+}
+.contact-us {
+    padding-top: 69px;
+    padding-bottom: 50px;
+    height: 505px;
+    background-image: url("../image/cover photo.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-color: #6E6E6E;
+    font-family: 'Rasa', serif;
+}
+.contact-us h3{
+    color: white;
+}
+.contact-us a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#link1:hover,#link2:hover{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.phno{
+    margin-left: 30px;
+    color:white;
+}
+.loc{
+margin-left: -30px;
+text-align: center;
+}
+.order img{
+    height: 175px;
+    margin-left: 65px;
+    margin-bottom: 50px;
+}
+.order{
+    color:white;
+    line-height: 35px;
+}
+.space{
+    padding: 20px;
+}
+#submit{
+    color: black;
+    font-weight: bold;
+}
+.phno form{
+    padding-top: 40px;
+text-align: center;
+margin-right: 136px;
+}
+.socialm img{
+    height: 40px;
+    padding-left: 17px;
+}
+/*ipad*/
+@media(max-width: 768px){
+.home{
+    margin-right: 0px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+h1 {
+    padding-top: 230px;
+    font-size: 48px;
+}
+.home h4 {
+    font-size: 30px;
+}
+.about{
+    background-color: none;
+}
+.about:hover{
+    background-color:none;
+}
+.baker p{
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.baker{
+    margin-bottom: 20px;
+}
+.baker-content {
+    width: 100%;
+    height: 450px;
+}
+.baker-content img{
+    width: 100%;
+    height: 430px;
+}
+.baker-content:hover{
+    background-color: #DBF2F9;
+}
+.baker a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    margin-left: 315px;
+}
+.products{
+    width: 100%;
+}
+.regular {
+    height: 557px;
+    background-image: url('../image/ovenstory.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #6E6E6E;
+    width: 100%;
+
+}
+.regular button {
+    margin-left: 310px;
+    margin-top: 456px;
+    color: black;
+    border: 1px solid white;
+}
+.customize {
+    height: 640px;
+    background-color: #070507;
+    background-blend-mode: multiply;
+    color: white;
+    font-family: 'Eczar', serif;
+
+}
+.customize img {
+    width: 90%;
+    height: 290px;
+    padding-bottom: 20px;
+    margin-left: 17px;
+    padding-right: 0px;
+}
+.festive h3,.customize h3{
+    margin-left: 20px;
+}
+.festive {
+    height: 980px;
+    background-color: #070507;
+    background-blend-mode: multiply;
+    color: white;
+    font-family: 'Eczar', serif;
+}
+.festive img {
+    width: 75%;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.contact-us{
+    padding-top: 69px;
+    padding-bottom: 100px;
+    height: 1600px;
+    background-image: url("../image/cover photo.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #6E6E6E;
+    font-family: 'Rasa', serif;
+    margin-right: 0px;
+    text-align: center;
+    width: 100%;
+
+}
+.phno form {
+    padding-top: 7px;
+    text-align: center;
+    margin-right: 0px;
+}
+#submit {
+    color: white;
+    font-weight: bold;
+    border: 1px soild white;
+}
+.loc{
+margin-left: 30px;
+text-align: center;
+}
+.map{
+    margin-left: 142px;
+}
+
+}
+/*iphone*/
+@media(max-width: 375px){
+
+body{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.home {
+    margin-right: 0px;
+}
+.home h4 {
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+}
+.baker-content {
+    width: 100%;
+    height: 200px;
+}
+.baker a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    margin-left: 150px;
+}
+.regular{
+        width: 100%;
+}
+.regular button {
+    margin-left: 120px;
+    margin-top: 456px;
+    color: black;
+    border: 1px solid white;
+}
+.customize{
+        width: 100%;
+        height: 465px;
+}
+.customize img {
+    width: 100%;
+    height: 202px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    padding-right: 29px;
+}
+.festive{
+    height: 520px;
+    width: 100%
+}
+.festive img {
+    width: 75%;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+.contact-us {
+    padding-top: 69px;
+    padding-bottom: 100px;
+    height: 1280px;
+    background-image: url("../image/cover photo.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #6E6E6E;
+    font-family: 'Rasa', serif;
+    margin-right: 0px;
+    text-align: center;
+
+}
+.phno {
+    margin-left: 0px;
+    color: white;
+}
+.loc {
+    margin-left: 0px;
+    text-align: center;
+}
+.about{
+    background-color: none;
+}
+.about:hover{
+    background-color:none;
+}
+.map{
+    margin-left: 0px;
+}
+    .contact-us h3 {
+        color: white;
+        margin-left: 10px;
+    }
+    .order img {
+    height: 175px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.socialm{
+    background-color: #070507;
+    background-blend-mode: difference;
+}
+}
